@@ -1,6 +1,5 @@
 #this postgres docker is running on debian
 FROM ubuntu:16.04
-MAINTAINER Faizal Abdul Manan <faizal.manan@canang.com.my>
 
 #RUN echo "deb http://archive.ubuntu.com/ubuntu trusty main universe" > /etc/apt/sources.list
 RUN apt-get -q update
