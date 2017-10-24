@@ -1,5 +1,6 @@
 #!/bin/bash
-/etc/init.d/postgresql start psql -l
+/etc/init.d/postgresql start
+psql -l
 
 
 

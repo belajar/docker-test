@@ -46,7 +46,7 @@ USER root
 
 RUN mkdir ~/docker/
 COPY entrypoint.sh /root/docker/
-RUN chown -R root:root /root/docker/
+RUN chown -R postgres:postgres /root/docker/
 RUN chmod +x /root/docker/entrypoint.sh
 CMD ["/root/docker/entrypoint.sh"]
 
